@@ -1,0 +1,28 @@
+#!/bin/bash
+#wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz
+#定义...
+PYTHON_PATH="/usr/local/python3"
+set -e
+set -x
+#身份检查
+if [ $(id -u) != "0" ]; then
+    echo "error: user must be an administrator"
+    exit;
+fi
+#依赖
+yum install gcc gcc-c++ kernel-devel kenel-headers make bzip2  readline readline-devel readline-static  openssl openssl-devel openssl-static sqlite-devel gdbm-devel bzip2-devel xz-devel tk-devel  bzip2-libs patch vim git ncurses-devel  -y
+
+#判断是否有源码包
+[ -s Python-3.6.3.tgz ] || exit 1
+tar xf Python-3.6.3.tgz
+cd Python-3.6.3
+./configure --prefix=${PYTHON_PATH} && make && make install
+
+ln -s ${PYTHON_PATH}/bin/python3.6 /usr/bin/python3
+ln -s ${PYTHON_PATH}/bin/pip3 /usr/bin/pip3
+ln -s ${PYTHON_PATH}/bin/pyvenv-3.6 /usr/bin/pyvenv3
+
+echo "export PATH="${PYTHON_PATH}/bin/:$PATH"">>/etc/profile
+source /etc/profile
+
+exit 0

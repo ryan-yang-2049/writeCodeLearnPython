@@ -1,0 +1,4 @@
+hello world!
+everyday study java
+l like java
+do you love java?

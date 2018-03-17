@@ -1,0 +1,21 @@
+基本数据类型
+		数 字（integer）:整数（int）、长整型（long）<python3 没有long类型>、浮点型（float）
+		字符串（string）: 文本（str）、字节（bytes）
+		布 尔（bool）   : True/False
+
+	数据集
+		列表（list）
+		元组（tuple）
+		字典（dict）:有序字典、无序字典
+		集合（set） :有序集合、无序集合
+
+
+可变数据类型：list ，dict，set
+不可变数据类型： bool,int,float,complex,str,tuple,frozenset
+
+
+
+
+
+
+
