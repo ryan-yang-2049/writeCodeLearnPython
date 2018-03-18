@@ -50,15 +50,15 @@ print(obj.send(10))         # 返回本次send的值 10，以及下次的count =
 print(next(obj))        # 返回 count = 4 的值，以及此时的生成器里面的变量 sign = None
 obj.close()
 print(next(obj))
-# 重要提示1：
+# yield 的send 和next 完美解析（我都佩服我自己）：
 # 当实例化生成器，并且 在生成器内部 yield 关键字的左边还有赋值变量时，如果没有send 数据时，左边的变量自动变成None。
 # 第一次next 或者 send 的时候，都会在yield 停住，不往后执行。此时，被实例化后的生成器回保存当前的位置以及状态。
-# 如果第二次执行next ，此时 yield 左边的值还是 None。然后，在循环执行到yield ，返回yield右边的值给外面的next。
+# 如果第二次执行next ，此时 yield 左边的值还是 None。然后，在继续循环执行到yield ，返回yield右边的值给外面的next。
 
-# 当第一次next或者send的时候，生成器函数会在 sign = yield count 的地方卡主，并把count 的值像return一样返回给此次实例化的send，并且此时的sign 的值为None，而且，生成器会自动保存当前执行的状态，以及位置，知道下一次send 或者next
+# 当第一次next或者send的时候，生成器函数会在 sign = yield count 的地方卡主，并把count 的值像return一样返回给此次实例化的send，并且此时的sign 的值为None，而且，生成器会自动保存当前执行的状态，以及位置，直到下一次send 或者next
 # 当第二次send('value') 的时候，生成器会从上次保存的位置 （sign = yield count）往下执行,并且此时的会把send 的value 赋值给 sign。然后，继续执行生成器的函数，一直到 sign = yield count 的地方，而且，此时的sign又变成了None
 
-#重要提示2：
+#重要提示：
 # 当调用函数next(generator)时，获得生成器yiled 后面的表达式的值
 # 当生成器内的值已经被执行完毕，再次调用next(generator)函数时，生成器会抛出异常“StopIteration”
 # 当生成器内部执行到 return  语句时，自动抛出异常 “StopIteration” return的值将作为异常的解释
