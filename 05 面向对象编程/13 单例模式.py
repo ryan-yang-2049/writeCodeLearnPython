@@ -82,7 +82,6 @@ print("obj2的内存地址",id(obj2))
 print("obj3的内存地址",id(obj3))
 
 
-
 # class Mymeta(type):
 # 	def __init__(self, name, bases, dic):  # 定义类Mysql时就触发
 # 		self.__instance = None
@@ -111,67 +110,55 @@ print("obj3的内存地址",id(obj3))
 # print(obj1 is obj2)
 
 
+# import time
+# import threading
+# class Singleton(object):
+#     _instance_lock = threading.Lock()
+#
+#     def __init__(self):
+#         time.sleep(1)
+#
+#     @classmethod
+#     def instance(cls, *args, **kwargs):
+#         if not hasattr(Singleton, "_instance"):
+#             with Singleton._instance_lock:
+#                 if not hasattr(Singleton, "_instance"):
+#                     Singleton._instance = Singleton(*args, **kwargs)
+#         return Singleton._instance
+#
+#
+# def task(arg):
+#     obj = Singleton.instance()
+#     print(obj)
+# for i in range(10):
+#     t = threading.Thread(target=task,args=[i,])
+#     t.start()
+# # time.sleep(20)
+# obj = Singleton.instance()
+# print("11",obj)
 
 
-
-
-
-
-
-
-
-
-
-
-		# import time
-		# import threading
-		# class Singleton(object):
-		#     _instance_lock = threading.Lock()
-		#
-		#     def __init__(self):
-		#         time.sleep(1)
-		#
-		#     @classmethod
-		#     def instance(cls, *args, **kwargs):
-		#         if not hasattr(Singleton, "_instance"):
-		#             with Singleton._instance_lock:
-		#                 if not hasattr(Singleton, "_instance"):
-		#                     Singleton._instance = Singleton(*args, **kwargs)
-		#         return Singleton._instance
-		#
-		#
-		# def task(arg):
-		#     obj = Singleton.instance()
-		#     print(obj)
-		# for i in range(10):
-		#     t = threading.Thread(target=task,args=[i,])
-		#     t.start()
-		# # time.sleep(20)
-		# obj = Singleton.instance()
-		# print("11",obj)
-
-
-		# 使用装饰器实现单例模式。
-		# def Singleton(cls):
-		#     _instance = {}
-		#
-		#     def _singleton(*args, **kargs):
-		#         if cls not in _instance:
-		#             _instance[cls] = cls(*args,**kargs)
-		#         return _instance[cls]
-		#
-		#     return _singleton
-		#
-		#
-		# @Singleton
-		# class A(object):
-		#     a = 1
-		#
-		#     def __init__(self, x=0):
-		#         self.x = x
-		#
-		#
-		# a1 = A(2)
-		# a2 = A(3)
-		# print(id(a1))
-		# print(id(a2))
+# 使用装饰器实现单例模式。
+# def Singleton(cls):
+#     _instance = {}
+#
+#     def _singleton(*args, **kargs):
+#         if cls not in _instance:
+#             _instance[cls] = cls(*args,**kargs)
+#         return _instance[cls]
+#
+#     return _singleton
+#
+#
+# @Singleton
+# class A(object):
+#     a = 1
+#
+#     def __init__(self, x=0):
+#         self.x = x
+#
+#
+# a1 = A(2)
+# a2 = A(3)
+# print(id(a1))
+# print(id(a2))
