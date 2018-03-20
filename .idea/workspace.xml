@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba5342fc-533b-48d6-acac-103fe5829572" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/05 __str__方法.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/06 __repr__方法.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/07 __setattr__,__delattr__,__getattr__方法.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/08 __get__,__getattr__,__getattribute__方法.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/09 __get__,__set__,__delete__方法.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/10 other 魔法方法.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/writeCodeLearnPython.iml" afterPath="$PROJECT_DIR$/.idea/writeCodeLearnPython.iml" />
-      <change beforePath="$PROJECT_DIR$/05 面向对象编程/13 单例模式.py" afterPath="$PROJECT_DIR$/05 面向对象编程/13 单例模式.py" />
-      <change beforePath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/04 __call__方法.py" afterPath="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/04 __call__方法.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06 异常处理/01 异常的种类.py" />
+      <change beforePath="$PROJECT_DIR$/06 网络编程/网络编程知识点.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/07 并发编程/并发编程知识点.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/08 MySQL数据库开发/MySQL数据库开发知识点.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/09 前端开发/前端开发知识点.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/10 Django/Django知识点.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="13 单例模式.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="13 单例模式.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/13 单例模式.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 异常的种类.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06 异常处理/01 异常的种类.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/04 __call__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
-              <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+              <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -71,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/05 __str__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -81,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/06 __repr__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/08 __get__,__getattr__,__getattribute__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -101,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/09 __get__,__set__,__delete__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -111,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/10 other 魔法方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/07 __setattr__,__delattr__,__getattr__方法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -185,6 +190,7 @@
         <option value="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/09 __get__,__set__,__delete__方法.py" />
         <option value="$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/10 other 魔法方法.py" />
         <option value="$PROJECT_DIR$/05 面向对象编程/13 单例模式.py" />
+        <option value="$PROJECT_DIR$/06 异常处理/01 异常的种类.py" />
       </list>
     </option>
   </component>
@@ -194,7 +200,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -535,7 +541,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -544,7 +551,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50260687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23594266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23594266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -830,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/04 __call__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -838,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/05 __str__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -846,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/06 __repr__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -854,7 +861,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/07 __setattr__,__delattr__,__getattr__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -862,7 +869,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/08 __get__,__getattr__,__getattribute__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -870,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/10 other 魔法方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -878,7 +885,7 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/14 python魔法方法/09 __get__,__set__,__delete__方法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -886,7 +893,15 @@
     <entry file="file://$PROJECT_DIR$/05 面向对象编程/13 单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06 异常处理/01 异常的种类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
